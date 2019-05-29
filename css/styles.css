@@ -46,7 +46,7 @@ p {
   border-radius: 100%;
   width: 150px;
   margin-right: 50px;
-  float: left;
+  /* float: left; */
 }
 
 /****** Main Containers ********/
@@ -110,7 +110,7 @@ background-color: #66BFBF;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
@@ -140,13 +140,7 @@ background-color: #66BFBF;
 } */
 
 /****** Third Container *********/
-.welcome-message {
-  padding-bottom: 20px;
-}
 
-.profile-img {
-  width: 300px;
-}
 
 /**** Bottom Containers *******/
 .copyright {
@@ -209,6 +203,12 @@ background-color: #66BFBF;
   line-height: 1;
 }
 
+@media (min-width:1000px) {
+  .logo-img {
+    float: left;
+  }
+}
+
 @media (max-width: 1000px) {
 
   .service-row {
@@ -217,19 +217,46 @@ background-color: #66BFBF;
     text-align: left;
   }
 
-  .testimonial-image {
+  /* .testimonial-image {
     height: 300px;
-  }
+  } */
 
   #title .container-fluid {
     padding: 3% 5% 1%;
 
   }
 
-}
-
-@media (max-width: 800px) {
   #title-header {
+    /* color: #00334e; */
+    /* font-size: 2rem;
+    font-family: 'Montserrat', sans-serif; */
+    line-height: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+  }
+#title .container-fluid {
 
+}
+  .navbar {
+    text-align: center;
+  }
+
+  .logo-img {
+    border-radius: 100%;
+    width: 200px;
+    margin-right: 50px;
+  }
+
+  .nav-link {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  .navbar-nav {
+    /* margin-top: 200px; */
   }
 }
