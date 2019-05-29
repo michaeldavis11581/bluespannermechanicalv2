@@ -119,6 +119,10 @@ background-color: #66BFBF;
   margin-top: 100px;
 }
 
+.navbar-toggler {
+  width: 100%;
+  background-color: #5588a3;
+}
 
 
 .testimonial-image {
