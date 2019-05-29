@@ -243,8 +243,9 @@ background-color: #66BFBF;
   }
 
 .navbar-brand {
-
+  margin-left: auto;
 }
+
   .navbar {
     text-align: center;
   }
